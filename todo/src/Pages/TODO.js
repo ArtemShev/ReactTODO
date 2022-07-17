@@ -22,8 +22,8 @@ import TodoList from "../components/TodoList";
         };
 
         return (
-          <div class="App">
-            <h1>React Todo App</h1>
+          <div className="cover-container d-flex w-50 h-100 p-3 mx-auto flex-column align-items-center mt-5">
+            <h1>Список дел</h1>
             <TodoInput todo={todo} setTodo={setTodo} addTodo={addTodo} />
             <TodoList list={todos} remove={deleteTodo} />
           </div>
